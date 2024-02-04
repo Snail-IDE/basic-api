@@ -48,6 +48,12 @@ app.get('/', async function(req, res) {
   res.send("online")
 })
 
+app.get('/status', async function(req, res) {
+  res.status(200)
+  res.header("Content-Type", 'text/plain')
+  res.send("online")
+})
+
 app.get('/commits', async function(req, res) {
   const difference = (Date.now() - lastFetch);
   if ((difference <= 120000) && (lastResults.length > 0)) {
