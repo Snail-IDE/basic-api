@@ -20,7 +20,8 @@ const githubCommitApis = [
   "https://api.github.com/repos/Snail-IDE/Desktop-Download/commits?per_page=50",
   "https://api.github.com/repos/Snail-IDE/examples/commits?per_page=50",
   "https://api.github.com/repos/Snail-IDE/ext-create/commits?per_page=50",
-  "https://api.github.com/repos/Snail-IDE/Snail-IDE-ObjectLibrariese/commits?per_page=50"
+  "https://api.github.com/repos/Snail-IDE/Snail-IDE-ObjectLibraries/commits?per_page=50",
+    "https://api.github.com/repos/Snail-IDE/OpenSnail/commits?per_page=50"
 ]
 
 
